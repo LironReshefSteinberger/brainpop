@@ -1,0 +1,42 @@
+
+.clean-list {
+  list-style: none;
+}
+
+.no-margin{
+  margin: 0 auto;
+}
+
+.btn {
+  border: 0px;
+  outline: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.text-align {
+  text-align: center;
+}
+
+// Layoutout Helpers
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.font-btn {
+  background-color: transparent;
+  color: $secondary-color;
+  transition: all 0.3s;
+  &:hover {
+      color: $table-header-main-color;
+  }
+}

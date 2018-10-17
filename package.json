@@ -7,7 +7,15 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.5",
+    "@fortawesome/free-solid-svg-icons": "^5.4.0",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "axios": "^0.18.0",
+    "lodash.debounce": "^4.0.8",
+    "normalize.css": "^8.0.0",
     "register-service-worker": "^1.0.0",
+    "v-tooltip": "^2.0.0-rc.33",
+    "vee-validate": "^2.1.0-beta.11",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
